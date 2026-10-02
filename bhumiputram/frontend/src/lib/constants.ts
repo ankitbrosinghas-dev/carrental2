@@ -33,18 +33,22 @@ export interface Car {
 }
 
 export const FALLBACK_CARS: Car[] = [
-    { slug: "mahindra-scorpio-n", name: "Mahindra Scorpio N", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Road Presence", rate_12h: 2499, rate_24h: 3499, image: VEHICLE_IMAGE("mahindra-scorpio-n.png"), gallery: [] },
-    { slug: "mahindra-scorpio-s11", name: "Mahindra Scorpio S11", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Premium SUV", rate_12h: 2099, rate_24h: 3299, image: VEHICLE_IMAGE("mahindra-scorpio-s11.png"), gallery: [] },
-    { slug: "mahindra-thar", name: "Mahindra Thar", category: "SUV", seats: 4, transmission: "Manual", fuel: "Petrol", tag: "Adventure Ready", rate_12h: 1999, rate_24h: 2999, image: VEHICLE_IMAGE("mahindra-thar.png"), gallery: [] },
-    { slug: "hyundai-creta", name: "Hyundai Creta", category: "SUV", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Popular SUV", rate_12h: 1699, rate_24h: 2599, image: VEHICLE_IMAGE("hyundai-creta.png"), gallery: [] },
-    { slug: "hyundai-verna", name: "Hyundai Verna", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Executive Comfort", rate_12h: 1499, rate_24h: 1999, image: `${IMG}/bf825f93fe5f463c8520e56e66154ebae8393ce670391d9501bc2382a599284d.jpeg`, gallery: [] },
-    { slug: "tata-nexon", name: "Tata Nexon", category: "SUV", seats: 5, transmission: "Manual", fuel: "Diesel", tag: "Urban SUV", rate_12h: 1599, rate_24h: 2299, image: VEHICLE_IMAGE("tata-nexon.png"), gallery: [] },
     { slug: "maruti-suzuki-baleno", name: "Maruti Suzuki Baleno", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Most Popular", rate_12h: 1099, rate_24h: 1699, image: `${IMG}/7f38d19536312a711a4ae87367221a8616767975a13b1c7fe60bdbb8136afbca.jpeg`, gallery: [] },
+    { slug: "hyundai-aura", name: "Hyundai Aura", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Value Sedan", rate_12h: 1099, rate_24h: 1699, image: VEHICLE_IMAGE("hyundai-aura.png"), gallery: [] },
     { slug: "maruti-suzuki-dzire", name: "Maruti Suzuki Dzire", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "CNG Saver", rate_12h: 1299, rate_24h: 1799, image: `${IMG}/d7bdd76fee46df712fb51af688a04601ad34db6b6aea3a1cde7cde4299aeb2f3.jpeg`, gallery: [] },
     { slug: "maruti-suzuki-fronx", name: "Maruti Suzuki Fronx", category: "SUV", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Crossover Style", rate_12h: 1299, rate_24h: 1799, image: `${IMG}/bf63776da37f99c6c1f4b68d27b50d864e90256557f4160fab210d8a386d12ac.jpeg`, gallery: [] },
+    { slug: "hyundai-verna", name: "Hyundai Verna", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Executive Comfort", rate_12h: 1499, rate_24h: 1999, image: `${IMG}/bf825f93fe5f463c8520e56e66154ebae8393ce670391d9501bc2382a599284d.jpeg`, gallery: [] },
+    { slug: "kia-sonet", name: "Kia Sonet", category: "SUV", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Sunroof Special", rate_12h: 1499, rate_24h: 1999, image: VEHICLE_IMAGE("kia-sonet.png"), gallery: [] },
+    { slug: "tata-nexon", name: "Tata Nexon", category: "SUV", seats: 5, transmission: "Manual", fuel: "Diesel", tag: "Urban SUV", rate_12h: 1599, rate_24h: 2299, image: VEHICLE_IMAGE("tata-nexon.png"), gallery: [] },
+    { slug: "hyundai-creta", name: "Hyundai Creta", category: "SUV", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Popular SUV", rate_12h: 1699, rate_24h: 2599, image: VEHICLE_IMAGE("hyundai-creta.png"), gallery: [] },
     { slug: "maruti-suzuki-ertiga", name: "Maruti Suzuki Ertiga", category: "MUV", seats: 7, transmission: "Manual", fuel: "CNG + Petrol", tag: "Family 7-Seater", rate_12h: 1699, rate_24h: 2199, image: `${IMG}/caceadbca7749fa47a0e1bd56bd932399f653d8d7d00c62fba07ab24e23fb086.jpeg`, gallery: [] },
     { slug: "maruti-suzuki-xl6", name: "Maruti Suzuki XL6", category: "MUV", seats: 6, transmission: "Manual", fuel: "CNG + Petrol", tag: "Premium Family", rate_12h: 1799, rate_24h: 2499, image: VEHICLE_IMAGE("maruti-suzuki-xl6.png"), gallery: [] },
-    { slug: "hyundai-aura", name: "Hyundai Aura", category: "Sedan", seats: 5, transmission: "Manual", fuel: "CNG + Petrol", tag: "Value Sedan", rate_12h: 1199, rate_24h: 1699, image: VEHICLE_IMAGE("hyundai-aura.png"), gallery: [] },
+    { slug: "mahindra-thar", name: "Mahindra Thar", category: "SUV", seats: 4, transmission: "Manual", fuel: "Petrol", tag: "Adventure Ready", rate_12h: 1999, rate_24h: 2999, image: VEHICLE_IMAGE("mahindra-thar.png"), gallery: [] },
+    { slug: "mahindra-scorpio-s11", name: "Mahindra Scorpio S11", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Premium SUV", rate_12h: 2099, rate_24h: 3299, image: VEHICLE_IMAGE("mahindra-scorpio-s11.png"), gallery: [] },
+    { slug: "mahindra-scorpio-n", name: "Mahindra Scorpio N", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Road Presence", rate_12h: 2499, rate_24h: 3499, image: VEHICLE_IMAGE("mahindra-scorpio-n.png"), gallery: [] },
+    { slug: "mahindra-xuv700", name: "Mahindra XUV700", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Luxury SUV", rate_12h: 2599, rate_24h: 3599, image: VEHICLE_IMAGE("xuv 700.jpeg"), gallery: [] },
+    { slug: "toyota-fortuner", name: "Toyota Fortuner", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Luxury SUV", rate_12h: 5999, rate_24h: 7999, image: VEHICLE_IMAGE("fortuner.jpeg"), gallery: [] },
+    { slug: "toyota-fortuner-legender", name: "Toyota Fortuner Legender", category: "SUV", seats: 7, transmission: "Manual", fuel: "Diesel", tag: "Luxury SUV", rate_12h: 5999, rate_24h: 7999, image: VEHICLE_IMAGE("legender.jpeg"), gallery: [] },
 ];
 
 export const DESTINATIONS = [
